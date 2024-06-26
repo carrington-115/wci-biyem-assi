@@ -2,13 +2,14 @@
 import Link from "next/link";
 import { tabLinks } from "./data/data";
 import { linkListType } from "./types/types";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function Header() {
   const pathname = usePathname();
+  const router = useRouter();
   return (
     <header className="fixed top-0 z-50 w-screen flex justify-around items-center pt-10 pb-5 bg-gradient-to-b from-black to-transparent">
-      <span>
+      <span className="cursor-pointer" onClick={() => router.push("/")}>
         <img src="/images/logo.svg" alt="logo" />
       </span>
       <ul className="flex gap-5">
