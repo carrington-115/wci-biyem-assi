@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import Header from "@/components/Header";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -24,7 +25,10 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </Head>
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}>
+        <Header />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }

@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const pathname = usePathname();
   return (
-    <header className="flex justify-around items-center pt-10 pb-5 bg-gradient-to-b from-black to-transparent">
+    <header className="fixed top-0 z-50 w-screen flex justify-around items-center pt-10 pb-5 bg-gradient-to-b from-black to-transparent">
       <span>
         <img src="/images/logo.svg" alt="logo" />
       </span>
@@ -17,8 +17,8 @@ export default function Header() {
             href={link}
             className={
               pathname === link
-                ? "text-white text-base"
-                : "text-gray-400 text-base"
+                ? "text-white text-base hover:text-white"
+                : "text-gray-400 text-base hover:text-white"
             }
           >
             {name}
