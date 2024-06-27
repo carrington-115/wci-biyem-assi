@@ -10,4 +10,11 @@ const tabLinks: linkListType[] = [
   { name: "Contact us", link: "/contact-us" },
 ];
 
-export { tabLinks };
+const booksList: string[] = [
+  "/images/home-books/books-1.svg",
+  "/images/home-books/books-2.svg",
+  "/images/home-books/books-3.svg",
+  "/images/home-books/books-4.svg",
+];
+
+export { tabLinks, booksList };
