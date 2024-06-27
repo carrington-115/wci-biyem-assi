@@ -1,4 +1,5 @@
 "use client";
+import FirstTimerSection from "@/components/FirstTimerSection";
 import BookSection from "@/components/home-components/BookSection";
 import EventsComponent from "@/components/home-components/EventsComponent";
 import HomeTopComponent from "@/components/home-components/HomeTopComponent";
@@ -17,6 +18,7 @@ export default function Home() {
       <ProgramSection />
       <EventsComponent />
       <TestimoniesComponent />
+      <FirstTimerSection />
     </main>
   );
 }
