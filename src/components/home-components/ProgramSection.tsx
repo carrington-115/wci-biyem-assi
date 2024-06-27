@@ -53,10 +53,11 @@ export default function ProgramSection() {
       </div>
       <button
         onClick={() => router.push("/kingdom-service")}
-        className="bg-white text-black text-lg font-medium hover:font-bold box-border px-12 py-2 rounded-full"
+        className="bg-white text-black text-lg font-medium hover:font-bold box-border px-24 py-2 rounded-full"
       >
         Join a Service unit
       </button>
+      <div className=""></div>
     </section>
   );
 }
