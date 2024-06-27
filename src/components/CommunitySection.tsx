@@ -1,5 +1,9 @@
 "use client";
+
+import { useRouter } from "next/navigation";
+
 export default function CommunitySection() {
+  const router = useRouter();
   return (
     <section className="w-screen bg-red-100 flex justify-center gap-14 text-black py-20">
       <div className="w-2/5 flex flex-col gap-7 items-start">
@@ -25,7 +29,10 @@ export default function CommunitySection() {
             <strong>Covenant Hour of Prayers</strong> (6:00 am - 7:00 am)
           </li>
         </ol>
-        <button className="bg-red-950 text-white px-6 py-2 rounded-full">
+        <button
+          className="bg-red-950 text-white px-6 py-2 rounded-full"
+          onClick={() => router.push("/testimonies")}
+        >
           Check our weekly programs
         </button>
       </div>
