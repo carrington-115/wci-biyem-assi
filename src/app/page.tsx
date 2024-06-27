@@ -1,6 +1,7 @@
 "use client";
 import TopPageComponent from "@/components/TopPageComponent";
 import Mandate from "@/components/home-components/Mandate";
+import WinnerSection from "@/components/home-components/WinnerSection";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
         }
       />
       <Mandate />
+      <WinnerSection />
     </main>
   );
 }
