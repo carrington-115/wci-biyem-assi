@@ -33,7 +33,7 @@ export default function ProgramSection() {
     <section className="w-screen box-border flex flex-col items-center bg-black px-16 pt-16 pb-10 gap-12">
       <div className="flex flex-col items-center">
         <h1 className="text-4xl font-bold mb-3">
-          Kingdome Advancement Endeavours
+          Kingdom Advancement Endeavours
         </h1>
         <p className="text-base text-gray-200 font-light">
           The life wire of every winner
@@ -57,7 +57,6 @@ export default function ProgramSection() {
       >
         Join a Service unit
       </button>
-      <div className=""></div>
     </section>
   );
 }
