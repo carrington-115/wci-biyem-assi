@@ -1,9 +1,12 @@
+"use client";
 export default function CommunitySection() {
   return (
-    <section>
-      <div>
-        <h1>Join the Community of Winners</h1>
-        <ol>
+    <section className="w-screen bg-red-100 flex justify-center gap-14 text-black py-20">
+      <div className="w-2/5 flex flex-col gap-7 items-start">
+        <h1 className="font-bold text-5xl text-red-950 leading-tight">
+          Join the Community of Winners
+        </h1>
+        <ol className="flex flex-col items-start gap-5 list-decimal list-outside text-lg font-medium ml-7">
           <li>
             <h2>
               <strong>Visit us every Sunday</strong>
@@ -22,9 +25,11 @@ export default function CommunitySection() {
             <strong>Covenant Hour of Prayers</strong> (6:00 am - 7:00 am)
           </li>
         </ol>
-        <button>Check our weekly programs</button>
+        <button className="bg-red-950 text-white px-6 py-2 rounded-full">
+          Check our weekly programs
+        </button>
       </div>
-      <div>
+      <div className="w-2/5">
         <img src="/images/community-image.svg" alt="community image" />
       </div>
     </section>
