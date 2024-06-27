@@ -1,4 +1,5 @@
 "use client";
+import CommunitySection from "@/components/CommunitySection";
 import FirstTimerSection from "@/components/FirstTimerSection";
 import BookSection from "@/components/home-components/BookSection";
 import EventsComponent from "@/components/home-components/EventsComponent";
@@ -19,6 +20,7 @@ export default function Home() {
       <EventsComponent />
       <TestimoniesComponent />
       <FirstTimerSection />
+      <CommunitySection />
     </main>
   );
 }
