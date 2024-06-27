@@ -10,4 +10,11 @@ interface programsCardTypes {
   link: string;
 }
 
-export type { linkListType, programsCardTypes };
+interface eventsType {
+  link: string;
+  image: string;
+  title: string;
+  message: string;
+}
+
+export type { linkListType, programsCardTypes, eventsType };

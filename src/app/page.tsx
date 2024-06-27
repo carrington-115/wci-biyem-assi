@@ -1,5 +1,6 @@
 "use client";
 import BookSection from "@/components/home-components/BookSection";
+import EventsComponent from "@/components/home-components/EventsComponent";
 import HomeTopComponent from "@/components/home-components/HomeTopComponent";
 import Mandate from "@/components/home-components/Mandate";
 import ProgramSection from "@/components/home-components/ProgramSection";
@@ -13,6 +14,7 @@ export default function Home() {
       <WinnerSection />
       <BookSection />
       <ProgramSection />
+      <EventsComponent />
     </main>
   );
 }
