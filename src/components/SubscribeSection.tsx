@@ -1,3 +1,4 @@
+"use client";
 export default function SubscribeSection() {
   return (
     <section className="w-screen box-border text-white flex justify-center py-24 gap-24">

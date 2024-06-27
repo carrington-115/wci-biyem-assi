@@ -1,4 +1,8 @@
+"use client";
 export default function PrayerFormComponent() {
+  function handleSubmitForm(e: any) {
+    e.preventDefault();
+  }
   return (
     <section className="w-screen flex justify-center bg-zinc-900 text-white py-20 gap-24 box-border">
       <div className="flex flex-col items-start gap-10 w-1/3 text-lg">
@@ -42,8 +46,8 @@ export default function PrayerFormComponent() {
       </div>
       <form
         action=""
-        onSubmit={(e) => e.preventDefault}
         className="w-2/5 flex flex-col items-center justify-center box-border h-fit px-10 py-16 gap-5 rounded-2xl border text-white"
+        onSubmit={handleSubmitForm}
       >
         <input
           className="w-full bg-transparent border rounded-md box-border px-4 py-3 placeholder:text-white"
