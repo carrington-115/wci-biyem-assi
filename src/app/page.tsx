@@ -2,6 +2,7 @@
 import TopPageComponent from "@/components/TopPageComponent";
 import BookSection from "@/components/home-components/BookSection";
 import Mandate from "@/components/home-components/Mandate";
+import ProgramSection from "@/components/home-components/ProgramSection";
 import WinnerSection from "@/components/home-components/WinnerSection";
 import { useRouter } from "next/navigation";
 
@@ -39,6 +40,7 @@ export default function Home() {
       <Mandate />
       <WinnerSection />
       <BookSection />
+      <ProgramSection />
     </main>
   );
 }

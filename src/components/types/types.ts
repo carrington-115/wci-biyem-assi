@@ -3,4 +3,11 @@ interface linkListType {
   link: string;
 }
 
-export type { linkListType };
+interface programsCardTypes {
+  image: string;
+  title: string;
+  message: string;
+  link: string;
+}
+
+export type { linkListType, programsCardTypes };
