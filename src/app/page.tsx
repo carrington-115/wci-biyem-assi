@@ -2,6 +2,7 @@
 import CommunitySection from "@/components/CommunitySection";
 import FirstTimerSection from "@/components/FirstTimerSection";
 import PrayerFormComponent from "@/components/PrayerFormComponent";
+import SubscribeSection from "@/components/SubscribeSection";
 import BookSection from "@/components/home-components/BookSection";
 import EventsComponent from "@/components/home-components/EventsComponent";
 import HomeTopComponent from "@/components/home-components/HomeTopComponent";
@@ -23,6 +24,7 @@ export default function Home() {
       <FirstTimerSection />
       <CommunitySection />
       <PrayerFormComponent />
+      <SubscribeSection />
     </main>
   );
 }
