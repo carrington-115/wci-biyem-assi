@@ -1,5 +1,6 @@
 "use client";
 import TopPageComponent from "@/components/TopPageComponent";
+import Mandate from "@/components/home-components/Mandate";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
           </div>
         }
       />
-      <h2>Hello home page</h2>
+      <Mandate />
     </main>
   );
 }
