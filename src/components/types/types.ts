@@ -17,4 +17,10 @@ interface eventsType {
   message: string;
 }
 
-export type { linkListType, programsCardTypes, eventsType };
+interface aboutArticleType {
+  images: string[];
+  title: string;
+  bodyContent: string[];
+}
+
+export type { linkListType, programsCardTypes, eventsType, aboutArticleType };
