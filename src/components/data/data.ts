@@ -1,4 +1,8 @@
-import { aboutArticleType, linkListType } from "../types/types";
+import {
+  aboutArticleType,
+  contentLinkTypes,
+  linkListType,
+} from "../types/types";
 
 const tabLinks: linkListType[] = [
   { name: "Home", link: "/" },
@@ -19,6 +23,7 @@ const booksList: string[] = [
 
 const aboutPageArticles: aboutArticleType[] = [
   {
+    id: "#article-1",
     images: [
       "/images/aboutus/article01/image-1.svg",
       "/images/aboutus/article01/image-2.svg",
@@ -33,6 +38,7 @@ const aboutPageArticles: aboutArticleType[] = [
     ],
   },
   {
+    id: "#article-2",
     images: [
       "/images/aboutus/article02/image-1.svg",
       "/images/aboutus/article02/image-2.svg",
@@ -49,6 +55,7 @@ const aboutPageArticles: aboutArticleType[] = [
     ],
   },
   {
+    id: "#article-3",
     images: [
       "/images/aboutus/article03/image-1.svg",
       "/images/aboutus/article03/image-2.svg",
@@ -64,4 +71,10 @@ const aboutPageArticles: aboutArticleType[] = [
   },
 ];
 
-export { tabLinks, booksList, aboutPageArticles };
+const contentsLink: contentLinkTypes[] = [
+  { id: "article-1", name: "About WCI and LFC" },
+  { id: "article-2", name: "About David O. Oyedepo" },
+  { id: "article-3", name: "About WCI Biyem-Assi" },
+];
+
+export { tabLinks, booksList, aboutPageArticles, contentsLink };

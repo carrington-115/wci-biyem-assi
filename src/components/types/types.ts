@@ -18,9 +18,21 @@ interface eventsType {
 }
 
 interface aboutArticleType {
+  id: string;
   images: string[];
   title: string;
   bodyContent: string[];
 }
 
-export type { linkListType, programsCardTypes, eventsType, aboutArticleType };
+interface contentLinkTypes {
+  id: string;
+  name: string;
+}
+
+export type {
+  linkListType,
+  programsCardTypes,
+  eventsType,
+  aboutArticleType,
+  contentLinkTypes,
+};
