@@ -50,9 +50,9 @@ const aboutPageArticles: aboutArticleType[] = [
   },
   {
     images: [
-      "/images/aboutus/article01/image-1.svg",
-      "/images/aboutus/article01/image-2.svg",
-      "/images/aboutus/article01/image-3.svg",
+      "/images/aboutus/article03/image-1.svg",
+      "/images/aboutus/article03/image-2.svg",
+      "/images/aboutus/article03/image-3.svg",
     ],
     title: "About LFC, Winners' Chapel Worldwide, and David Oyedepo Ministries",
     bodyContent: [
