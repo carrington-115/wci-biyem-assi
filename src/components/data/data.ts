@@ -23,7 +23,7 @@ const booksList: string[] = [
 
 const aboutPageArticles: aboutArticleType[] = [
   {
-    id: "#article-1",
+    id: "article-1",
     images: [
       "/images/aboutus/article01/image-1.svg",
       "/images/aboutus/article01/image-2.svg",
@@ -38,7 +38,7 @@ const aboutPageArticles: aboutArticleType[] = [
     ],
   },
   {
-    id: "#article-2",
+    id: "article-2",
     images: [
       "/images/aboutus/article02/image-1.svg",
       "/images/aboutus/article02/image-2.svg",
@@ -55,13 +55,13 @@ const aboutPageArticles: aboutArticleType[] = [
     ],
   },
   {
-    id: "#article-3",
+    id: "article-3",
     images: [
       "/images/aboutus/article03/image-1.svg",
       "/images/aboutus/article03/image-2.svg",
       "/images/aboutus/article03/image-3.svg",
     ],
-    title: "About LFC, Winners' Chapel Worldwide, and David Oyedepo Ministries",
+    title: "About Winners Chapel International, Biyem-Assi",
     bodyContent: [
       `The beginning of the church manifested on May 2, 1981, when David Oyedepo (aged 26) had a spiritual encounter while lodging in one of the rooms within the International Hotel located in the Omi-Asoro Quarters of Ilesa city, in the present day Osun State of Nigeria where he had an 18-hour vision, and God spoke to him saying,  "Now the hour has come to liberate the world from all oppressions of the devil, through the preaching of the Word of faith; and I am sending you to undertake this task". In 1983, the church began operating with four members on December 11.`,
       `On 1998, David Oyedepo set forth to build a new building to accommodate the increasing number of worshippers. This resulted in the Ministry’s acquisition of the initial 530-acre (2.1 km2) facility, known as Canaanland, which serves as the headquarters of the Ministry. It is the home of the 50,000-seat capacity auditorium, the ‘Faith Tabernacle’, which is reputed to be the largest Church auditorium in the world; a feat also recorded in the Guinness Book of Records.`,

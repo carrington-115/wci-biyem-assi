@@ -4,6 +4,7 @@ export default function AboutArticle({
   images,
   title,
   bodyContent,
+  id,
 }: aboutArticleType) {
   return (
     <section className="w-full flex justify-between mb-10">
@@ -14,7 +15,7 @@ export default function AboutArticle({
           </div>
         ))}
       </div>
-      <div className="w-3/5">
+      <div className="w-3/5" id={id}>
         <h1 className="mb-10 font-bold text-2xl">{title}</h1>
         {bodyContent.map((content) => (
           <p className="text-justify font-medium mb-5">
